@@ -1,8 +1,8 @@
 == README
 
-Pandavas were'nt stupid. It's just that Shakuni was a brilliant gambler. 
+Pandavas weren't stupid. It's just that Shakuni was a brilliant gambler. <br/>
 http://en.wikipedia.org/wiki/Shakuni
-
+<br/><br/>
 Dev Legend:
 <tt>rails server</tt>
 <tt>git push heroku master</tt>
