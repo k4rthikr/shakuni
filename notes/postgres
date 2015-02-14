@@ -1,0 +1,9 @@
+Author: karthik
+
+* View credentials
+heroku pg:credentials DATABASE
+
+* Rotate credentials
+heroku pg:credentials HEROKU_POSTGRESQL_GRAY_URL --reset 
+* Note that the "color_URL" can be found using 'heroku config'
+

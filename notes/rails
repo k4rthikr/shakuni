@@ -1,0 +1,19 @@
+# Create DB
+rake db:create
+
+# Start Server
+rails server
+
+# Create controllers
+rails generate controller articles
+or
+rails g controller articles
+
+# Create index.html.erb for making /ABC work. You also need to mention the new route in /config/routes.rb
+resources :articles
+
+# Create a new view for article
+/articles/new Searches in many locations (/views/aricles/new.xxx or /application/new ..)
+
+
+

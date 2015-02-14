@@ -1,0 +1,10 @@
+Author: karthik
+
+* postGres issues
+sudo env ARCHFLAGS="-arch x86_64" gem install pg -v '0.18.1' -- --with-pg-config=/Applications/Postgres.app/Contents/Versions/9.4/bin/pg_config
+
+* Postgres DB config is used only in localbox. When deployed to heroku, heroku ignores database.yml and uses the assigned postgres instance for the app.
+* Postgre locally using Postgres.app (MAC). Credentials:
+user: username (rkarthi)
+pass: blank
+database: same as username
